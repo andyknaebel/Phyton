@@ -4,4 +4,5 @@ from .models import employee
 class employeeSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = employee
-        fields = '__all__'
+        fields = ['id', 'First', 'Last', 'url']
+        #fields = '__all__'
