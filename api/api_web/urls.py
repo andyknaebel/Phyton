@@ -8,4 +8,5 @@ urlpatterns = [
  
     path('', views.api_webview),
     path('get_one', views.api_getone.as_view()),
+    path('crypto', views.crypto.as_view()),
 ]
